@@ -1,0 +1,10 @@
+C:\git\GUIMidTerm\GUIMidTerm\bin\Debug\GUIMidTerm.exe.config
+C:\git\GUIMidTerm\GUIMidTerm\bin\Debug\GUIMidTerm.exe
+C:\git\GUIMidTerm\GUIMidTerm\bin\Debug\GUIMidTerm.pdb
+C:\git\GUIMidTerm\GUIMidTerm\obj\Debug\GUIMidTerm.csprojAssemblyReference.cache
+C:\git\GUIMidTerm\GUIMidTerm\obj\Debug\GUIMidTerm.Form1.resources
+C:\git\GUIMidTerm\GUIMidTerm\obj\Debug\GUIMidTerm.Properties.Resources.resources
+C:\git\GUIMidTerm\GUIMidTerm\obj\Debug\GUIMidTerm.csproj.GenerateResource.cache
+C:\git\GUIMidTerm\GUIMidTerm\obj\Debug\GUIMidTerm.csproj.CoreCompileInputs.cache
+C:\git\GUIMidTerm\GUIMidTerm\obj\Debug\GUIMidTerm.exe
+C:\git\GUIMidTerm\GUIMidTerm\obj\Debug\GUIMidTerm.pdb
