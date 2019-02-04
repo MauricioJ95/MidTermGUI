@@ -17,9 +17,14 @@ namespace GUIMidTerm
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnAdd_Click(object sender, EventArgs e)
         {
+            lblError.Text = "";
 
+            if (CheckForSelectedItem(lbProducts))
+            {
+                lbCart.Items.Add(lbProducts.SelectedItem);
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -27,9 +32,40 @@ namespace GUIMidTerm
 
         }
 
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void lbProducts_DoubleClick(object sender, EventArgs e)
         {
+            lblError.Text = "";
 
+            lbCart.Items.Add(lbProducts.SelectedItem);
+        }
+
+        private void lbCart_DoubleClick(object sender, EventArgs e)
+        {
+            lblError.Text = "";
+
+            lbCart.Items.Remove(lbCart.SelectedItem);
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            if (CheckForSelectedItem(lbCart))
+            {
+                lbCart.Items.Remove(lbCart.SelectedItem);
+            }
+        }
+
+        private bool CheckForSelectedItem(ListBox lb)
+        {
+            lblError.Text = "";
+
+            if (lb.SelectedItem == null)
+            {
+                lblError.Text = "Please select an item";
+
+                return false;
+            }
+
+            return true;
         }
     }
 }
